@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  
+
+
+}
+#ti{
+    padding-bottom:10px ;
+}
+.btn{
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
+.ebtn{
+    background-color: #3B71CA;
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+     border:none;
+     border-radius: 3px;
+}
+.ebtn:hover{
+    border:2px solid #80deea ;
+}
+.dbtn{
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+    border:none;
+    border-radius: 3px;
+    color: white;
+}
+
+.dbtn:hover{
+    border:2px solid #ff8a65;
+}
+.an{
+    padding-bottom: 20px;
+}
+.para{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 10px;
+}
+.inputform{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.iform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 40px;
+    border-radius: 20px;
+    
+}
+
+.all{
+    display: flex;
+    flex-direction:row;
+    align-items: center; 
+}
+
+.ititle,.authorname,.isbn,.pdate,.bdate,.bio{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left:20px ;
+    margin: 30px;
+    border: none;
+    box-shadow: 5px 5px 10px;
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abtn{
+    margin: 30px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    width: 430px;
+    
+
+}
+.ubtn{
+    margin: 30px;
+    height: 40px;
+    background-color: rgb(1, 68, 1);
+    color: white;
+    border-radius: 30px;
+    width: 430px;
+
+}
+.text-red-400{
+    color: red;
+    padding-left: 140px;
+    padding-bottom: 10px;
+}
+
+.name{
+
+    color: blue;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    padding: 10px;
+}
+.des,.born{
+    padding: 10px;
+}
